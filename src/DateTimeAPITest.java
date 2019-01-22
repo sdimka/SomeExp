@@ -9,6 +9,7 @@ public class DateTimeAPITest {
         System.out.println(currentDate);
         System.out.println(currentDate.getDayOfYear());
         System.out.println(currentDate.isLeapYear());
+        System.out.println(currentDate.getDayOfWeek());
 
         LocalDate firstDayOfMonth = currentDate.with(TemporalAdjusters.firstDayOfMonth());
         System.out.println(firstDayOfMonth);
